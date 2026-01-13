@@ -2,7 +2,7 @@
 
  <a href="https://www.youtube.com/watch?v=w-_Mpbzgaeo" target="_blank">
   <img src="https://img.youtube.com/vi/w-_Mpbzgaeo/maxresdefault.jpg" alt="VRADHD Video">
-</a>
+</a><p>(Youtube video)</p>
 
 <h2>Overview</h2>
 <p>
