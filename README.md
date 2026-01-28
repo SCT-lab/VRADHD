@@ -66,7 +66,7 @@
   <tbody>
     <tr>
       <td><b>Scripts/EEG_Band_Power_Emotiv_Reverse.cs</b></td>
-	  <td>Reverse engineered Power Band calculations used for topographic heatmaps following Emotiv's specification.</td>
+      <td>Reverse engineered EEG power band calculations for generating topographic heatmaps following Emotiv specifications.</td>
     </tr>
     <tr>
       <td><b>BullwhipIndex.cs</b></td>
@@ -129,16 +129,36 @@
       <td>Activates practice-round-specific rules, UI, and interactions.</td>
     </tr>
     <tr>
-      <td><b>UpdateTextFirstTimeStageNumberDisplay.cs</b></td>
+      <td><b>UpdateTextFirstTimecs.cs</b></td>
       <td>Updates stage number text display when a stage is shown for the first time.</td>
     </tr>
     <tr>
-      <td><b>ShowAmountSendPlayerOrderUpdateScoreboardReset.cs</b></td>
+      <td><b>ShowAmount.cs</b></td>
       <td>Displays order amounts, sends player order updates, and resets the scoreboard.</td>
     </tr>
     <tr>
-      <td><b>TriggerTextPromptElseTextPromptActors.cs</b></td>
+      <td><b>TriggerTextPromptElse.cs</b></td>
       <td>Triggers contextual text prompts depending on game state or active actors.</td>
+    </tr>
+    <tr>
+      <td><b>StageNumberDisplay.cs</b></td>
+      <td>Displays and updates the current stage number in the user interface.</td>
+    </tr>
+    <tr>
+      <td><b>SendPlayerOrder.cs</b></td>
+      <td>Sends the player’s order data to the game logic or networked system.</td>
+    </tr>
+    <tr>
+      <td><b>UpdateScoreboard.cs</b></td>
+      <td>Updates scoreboard values based on player performance and game state.</td>
+    </tr>
+    <tr>
+      <td><b>TextPromptActors.cs</b></td>
+      <td>Displays instructional or contextual text prompts targeted at specific player roles or actors.</td>
+    </tr>
+	<tr>
+      <td><b>Reset.cs</b></td>
+      <td>Resets game variables, UI elements, and state for a new round or session.</td>
     </tr>
   </tbody>
 </table>
