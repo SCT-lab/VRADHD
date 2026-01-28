@@ -23,7 +23,7 @@
   <li><b>SteamVR</b></li>
   <li><b>VRChat:</b> PC application or Android release (mobile phones/Meta headsets)</li>
   <li><b>VRChat account:</b> Registered account with publication rights</li>
-  <li><b>VRChat Creater Companion:</b>  – <a href="[https://github.com/vrchat/packages](https://vcc.docs.vrchat.com/)" target="_blank">Creator Companion</a></li></li>/li>
+  <li><b>VRChat Creater Companion:</b>  – <a href="[https://github.com/vrchat/packages](https://vcc.docs.vrchat.com/)" target="_blank">Creator Companion</a></li>/li>
 </ul>
 
 <h2>Getting Started</h2>
