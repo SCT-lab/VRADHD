@@ -21,10 +21,14 @@
   <li><b>Windows PC:</b> Tested on Windows 10 22H2</li>
   <li><b>Virtual Reality:</b> Tested with a Meta Quest 3 VR headset</li>
   <li><b>SteamVR</b></li>
-  <li><b>VRChat:</b> PC application or Android release (mobile phones/Meta headsets)</li>
+  <li><b>VRChat:</b> PC application or Android release (mobile phones / Meta headsets)</li>
   <li><b>VRChat account:</b> Registered account with publication rights</li>
-  <li><b>VRChat Creater Companion:</b>  – <a href="[https://github.com/vrchat/packages](https://vcc.docs.vrchat.com/)" target="_blank">Creator Companion</a></li>/li>
+  <li>
+    <b>VRChat Creator Companion:</b>
+    <a href="https://vcc.docs.vrchat.com/" target="_blank">Creator Companion</a>
+  </li>
 </ul>
+
 
 <h2>Getting Started</h2>
 <ol>
