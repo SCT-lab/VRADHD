@@ -1,0 +1,63 @@
+############################
+# Unity generated folders #
+############################
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+############################
+# Unity cache / meta noise #
+############################
+*.pidb
+*.booproj
+*.svd
+*.userprefs
+*.unityproj
+*.tmp
+*.bak
+*.swp
+
+############################
+# IDE / OS files          #
+############################
+.vscode/
+.idea/
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.DS_Store
+Thumbs.db
+
+############################
+# VRChat SDK              #
+############################
+Assets/VRChat/SDK/Plugins/VRCSDKCache/
+Assets/VRChat/SDK/Plugins/VRCSDKLocalCache/
+Assets/VRChat/SDK/Editor/VRCSDKBuildCache/
+Assets/VRChat/SDK/Editor/Logs/
+
+############################
+# Udon / UdonSharp        #
+############################
+Assets/UdonSharp/Cache/
+Assets/UdonSharp/Editor/BuildCache/
+
+############################
+# Crash / profiling       #
+############################
+sysinfo.txt
+*.stackdump
+
+############################
+# Git LFS placeholders    #
+############################
+*.lfs
