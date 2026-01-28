@@ -12,7 +12,7 @@
 
 <h2>Overview</h2>
 <p>
-  This project provides an educational supply chain role play game, teaching the fundamentals of Supply Chain Management, and offers support for VR, desktop and mobile phones (Android/iOS). In addition, reference scripts for R are included to reverse engineer Emotiv's power-band calculation.
+  This project provides an educational supply chain role play game, teaching the fundamentals of Supply Chain Management, and offers support for VR, desktop and mobile phones (Android/iOS). In addition, reference scripts for R are included to reverse engineer Emotiv's power-band calculations.
 
 </p>
 
@@ -23,7 +23,7 @@
   <li><b>SteamVR</b></li>
   <li><b>VRChat:</b> PC application or Android release (mobile phones/Meta headsets)</li>
   <li><b>VRChat account:</b> Registered account with publication rights</li>
-  <li><b>VRChat Creater Companion:</b> Registered account with publication rights</li>
+  <li><b>VRChat Creater Companion:</b>  – <a href="[https://github.com/vrchat/packages](https://vcc.docs.vrchat.com/)" target="_blank">Creator Companion</a></li></li>/li>
 </ul>
 
 <h2>Getting Started</h2>
