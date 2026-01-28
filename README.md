@@ -1,8 +1,14 @@
-<h1 align="center">Integrating EEG Sensors with Virtual Reality to Support Students with ADHD</h1>
+<h1 align="center">
+  Integrating EEG Sensors with Virtual Reality to Support Students with ADHD
+</h1>
 
- <a href="https://www.youtube.com/watch?v=w-_Mpbzgaeo" target="_blank">
-  <img src="https://img.youtube.com/vi/w-_Mpbzgaeo/maxresdefault.jpg" alt="VRADHD Video">
-</a><p>(Youtube video)</p>
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=w-_Mpbzgaeo" target="_blank">
+    <img src="https://img.youtube.com/vi/w-_Mpbzgaeo/maxresdefault.jpg" alt="VRADHD Video">
+  </a>
+  <p>▶ Click the image to watch the video on YouTube</p>
+</div>
+
 
 <h2>Overview</h2>
 <p>
@@ -15,7 +21,7 @@
   <li><b>Windows PC:</b> Tested on Windows 10 22H2</li>
   <li><b>Virtual Reality:</b> Tested with a Meta Quest 3 VR headset</li>
   <li><b>SteamVR</b></li>
-  <li><b>VRChat desktop or mobile</b></li>
+  <li><b>VRChat:</b> PC application or Android release (mobile phones/Meta headsets)</li>
   <li><b>VRChat account:</b> Registered account with publication rights</li>
   <li><b>VRChat Creater Companion:</b> Registered account with publication rights</li>
 </ul>
@@ -25,7 +31,7 @@
   <li>Clone the repository or download the .zip from the <> Green code button:<br>
     <code>git clone https://github.com/SCT-lab/VRADHD.git</code>
   </li>
-  <li>Open <b>VRChat Creater Companion</b>, click <b>Create New Project ⌄ → Add Existing Project</b>, and select the cloned project folder.</li>
+  <li>Open <b>VRChat Creater Companion</b>, click <b>Create New Project → Add Existing Project</b>, and select the cloned project folder.</li>
   <li>Press <b>Manage Project</b> and make sure the required packages from VRChat are installed.</li>
 </ol>
 
@@ -58,6 +64,10 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><b>Scripts/EEG_Band_Power_Emotiv_Reverse.cs</b></td>
+	  <td>Reverse engineered Power Band calculations used for topographic heatmaps following Emotiv's specification.</td>
+    </tr>
     <tr>
       <td><b>BullwhipIndex.cs</b></td>
       <td>Calculates and updates the bullwhip effect index based on player order and inventory data.</td>
@@ -141,24 +151,6 @@
   <li>
     The game logic is written in UdonSharp (VRChat-specific), which is a variant of C#.
   </li>
-  <li>
-    To update the controller configuration, navigate to
-    <em>Project Settings → XR Plug-in Management → OpenXR</em> and replace the
-    <strong>Valve Index Controller Profile</strong> with another (e.g., Meta Quest controllers)
-    using the <code>+</code> / <code>−</code> icons.
-  </li>
-  <li>
-    The <strong>OpenXR Simulator</strong> can be enabled to use keyboard and mouse controls:
-    <ul>
-      <li>In the Hierarchy, enable <em>Setup → XR Device Simulator</em>.</li>
-      <li>
-        In the Game view, press the <code>+</code> on the simulator’s control window to view
-        the input mappings.
-      </li>
-      <li>
-        Navigation may feel unintuitive at first, but the on-screen guide helps clarify the
-        control scheme.
-      </li>
     </ul>
   </li>
 </ol>
@@ -184,7 +176,7 @@
 <h2>Citation</h2>
 <p>
 If you use this code in your research, please cite:<br>
-<b>Wolfers, J., Hurst, W. and Krampe, C., 2026.</b><i> Integrating EEG Sensors with Virtual Reality to Support Stu-dents with ADHD</i> sensors<br>
+<b>Wolfers, J., Hurst, W. and Krampe, C., 2026.</b><i> Integrating EEG Sensors with Virtual Reality to Support Students with ADHD</i> - sensors<br>
 <a href="" target="_blank">sensors</a>
 
 </p>
