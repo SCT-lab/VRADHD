@@ -10,7 +10,7 @@ library(eegkit)
 # Names of the 4 time events in the input data
 # Note the input data from Emotiv has been exported to Excel. Recordings made using EmotivPRO can be exported to a .cvs file / converted to Excel
 # https://emotiv.gitbook.io/emotivpro-v3/managing-your-eeg-data-recordings/exporting-an-eeg-data-recording
-#list_sheet_names = c("baseline_open", "baseline_closed", "tutorial_video", "start_playing")
+# list_sheet_names = c("baseline_open", "baseline_closed", "tutorial_video", "start_playing")
 
 pw_calculation <- function(name)
 {
