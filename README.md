@@ -171,7 +171,7 @@
 
 <h2>Miscellaneous</h2>
 <ol>
-  <li>The project is technically compatible with major VR headsets (HTC, Meta/Oculus, Valve, WMR headsets).</li>
+  <li>The project is technically compatible with all major VR headsets (HTC, Meta/Oculus, Valve, WMR headsets), Windows PC's and Android or iOS smartphones.</li>
   <li>The game logic is written in UdonSharp (VRChat-specific), which is a variant of C#.</li>
   <li>The included UdonSharp scripts can be found in <b>Assets → Scripts → test1_ UdonProgramSources</b>.</li>
 </ol>
