@@ -24,7 +24,8 @@ pw_calculation <- function(name)
     data_selected <- as.data.frame(data_selected) # Convert to data frame
     rm(data)
     
-    # Step 2: Define filter coefficients according to Emotiv (link)
+    # Step 2: Define filter coefficients according to Emotiv
+    # https://web.archive.org/web/20250403222607/https://www.emotiv.com/tools/knowledge-base/research-information/how-are-band-powers-calculated
     b <- c(0.96588528974407006000, -1.93177057948814010000, 0.96588528974407006000)
     a <- c(1.00000000000000000000, -1.93060642721966810000, 0.93293473175661223000)
     
