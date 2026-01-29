@@ -1,4 +1,5 @@
 # Import libraries
+# Make sure to install.packages("X") first
 library(eegUtils)
 library(readxl)
 library(reshape2)
