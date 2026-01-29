@@ -8,8 +8,9 @@ library(zoo)
 library(eegkit)
 
 # Names of the 4 time events in the input data
-# Note the input data from Emotiv has been exported to Excel
-3list_sheet_names = c("baseline_open", "baseline_closed", "tutorial_video", "start_playing")
+# Note the input data from Emotiv has been exported to Excel. Recordings made using EmotivPRO can be exported to a .cvs file / converted to Excel
+# https://emotiv.gitbook.io/emotivpro-v3/managing-your-eeg-data-recordings/exporting-an-eeg-data-recording
+#list_sheet_names = c("baseline_open", "baseline_closed", "tutorial_video", "start_playing")
 
 pw_calculation <- function(name)
 {
@@ -19,7 +20,7 @@ pw_calculation <- function(name)
   # Step 1: Import cleaned datasheet with the 4-time events
   for (x in list_sheet_names) {
     data <- read_excel(name, sheet = x)
-    data_selected <- data[5:18] # Select 14 EEG channels
+    data_selected <- data[5:18] # Select 14 EEG channels; default Emotiv layout
     data_selected <- as.data.frame(data_selected) # Convert to data frame
     rm(data)
     
