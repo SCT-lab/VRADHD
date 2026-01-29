@@ -127,7 +127,7 @@ pw_calculation <- function(name)
 }
 
 # Call the function and apply it for all the X datasets (e.g., 19)
-for(i in VR_dataset[1:20])
-{
-  pw_calculation (i)
-  
+#for(i in VR_dataset[1:20])
+#{
+#  pw_calculation (i)
+#}
