@@ -196,6 +196,6 @@
 
 <h2>Citation</h2>
 <p>
-If you use this code in your research, please cite:<br>
+If you use this code in your research, please cite:<br><br>
  Wolfers, J., Hurst, W., & Krampe, C. (2026). Integrating EEG Sensors with Virtual Reality to Support Students with ADHD. Sensors, 26(3), 1017. https://doi.org/10.3390/s26031017
 </p>
